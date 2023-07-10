@@ -10,3 +10,57 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.red-light{
+    background: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.red-light-glow{
+    background: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow:
+    0 0 60px 30px #ff5858,
+    0 0 100px 60px #f0f,
+    0 0 140px 90px #ff8797
+}
+.yellow-light{
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.yellow-light-glow{
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow:
+    0 0 60px 30px #d3ff6c,
+    0 0 100px 60px rgb(16, 255, 48),
+    0 0 140px 90px #fff27d
+}
+.green-light{
+    background: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.green-light-glow{
+    background: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow:
+    0 0 60px 30px #19f72b,
+    0 0 100px 60px rgb(72, 250, 72),
+    0 0 140px 90px rgb(46, 240, 159);
+}
